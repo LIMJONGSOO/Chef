@@ -68,8 +68,6 @@ nav {
       border-left: solid 1px rgba(255, 255, 255, 0.3);
       display: inline-block;
       list-style: none;
-      margin-left: 1.5em;
-      padding-left: 1.5em;
     }
 
       #footer .info li:first-child {
@@ -84,4 +82,17 @@ nav {
       
       #footer .info li span {
         font-weight: 1000;
+      }
+
+      #footer .info li:before {
+        content: '';
+        display: inline-block;
+        margin: 0 10px;
+        width: 1px;
+        height: 12px;
+        background: #acacac;
+      }
+
+      #footer .info li:first-child:before {
+        display:none;
       }
